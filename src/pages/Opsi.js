@@ -1,5 +1,5 @@
 import React from 'react'
-import './intro-opsi.css'
+import './style.css'
 import ilustrasi from './Assets/ilustrasi.svg'
 import {Link} from 'react-router-dom'
 
@@ -14,12 +14,12 @@ function Coba() {
             </div>
             <div className="question"><p>APA YANG KAMU BUTUHKAN?</p></div>
             <div>
-                <a href="layanan-telephone.html">
-                    <button id="button-opsi1" type="button" ><p>Menghubungi Nomor Darurat</p></button>
-                </a>
-                <a href="home-pelaporan.html">
-                    <button id="button-opsi2" type="button"><p>Pelaporan / Aspirasi</p></button>
-                </a>
+                <Link to='/noDarurat'>
+                <button id="button-opsi1" type="button" ><p>Menghubungi Nomor Darurat</p></button>
+                </Link>
+                <Link>
+                <button id="button-opsi2" type="button"><p>Pelaporan / Aspirasi</p></button>
+                </Link>
             </div>
         </div>
     )

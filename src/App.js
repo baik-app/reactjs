@@ -8,6 +8,7 @@ import {
 } from 'react-router-dom'
 import Intro from './pages/Intro'
 import Opsi from './pages/Opsi'
+import NomorDarurat from './pages/NoDarurat'
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
         </Route>
         <Route path='/opsi'>
           <Opsi />
+        </Route>
+        <Route path='/noDarurat'>
+          <NomorDarurat />
         </Route>
       </Switch>
       </Router>

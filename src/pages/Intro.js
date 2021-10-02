@@ -1,5 +1,5 @@
 import React from 'react'
-import './intro-opsi.css'
+import './style.css'
 import ilustrasi from './Assets/ilustrasi.svg'
 import {Link} from 'react-router-dom'
 
