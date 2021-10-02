@@ -3,11 +3,12 @@ import './style.css'
 
 function BoxNomor({number}) {
     return (
-        <div className='container-number'>
-            <div className="box">
-                <div className='number'>{number}</div>
-            </div>
+        <div>
+            <button className="box" type='button'>
+                <p>{number}</p>
+            </button>
         </div>
+
     )
 }
 

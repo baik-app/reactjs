@@ -125,6 +125,7 @@
     border: none;
     background: #001F70;
     border-radius: 10px;
+    cursor: pointer;
   }
   #button-opsi1 p {
     position: static;
@@ -160,6 +161,7 @@
     border: none;
     background: #001F70;
     border-radius: 10px;
+    cursor: pointer;
   }
   #button-opsi2 p {
     position: static;
@@ -203,6 +205,7 @@
   height: 47px;
   left: 41px;
   top: 54px;
+  margin: 0px;
   
   font-family: Poppins;
   font-style: normal;
@@ -229,4 +232,9 @@
 .layanan-telepon li{
   padding-bottom: 17px;
   list-style: none;
+}
+.close {
+  position: absolute;
+  left: 8px;
+  top: 8px;
 }
