@@ -8,6 +8,8 @@ import {
 import Intro from './pages/Intro'
 import Opsi from './pages/Opsi'
 import NomorDarurat from './pages/NoDarurat'
+import HomePelaporan from './pages/HomePelaporan'
+import HomeAspirasi from './pages/HomeAspirasi'
 
 function App() {
   return (
@@ -21,6 +23,12 @@ function App() {
         </Route>
         <Route path='/noDarurat'>
           <NomorDarurat />
+        </Route>
+        <Route path='/Pelaporan'>
+          <HomePelaporan />
+        </Route>
+        <Route path='/Aspirasi'>
+          <HomeAspirasi />
         </Route>
       </Switch>
       </Router>

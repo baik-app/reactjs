@@ -14,7 +14,7 @@ function NoDarurat() {
     return (
         <div>
         <div className="layanan-telepon">
-            <Link to='/opsi'><img className="close" src={Close} /></Link>
+            <Link to='/opsi'><img className="close" src={Close} alt='close'/></Link>
             <div className="judul-layanan"><p>Silahkan pilih nomor yang akan dihubungi</p></div>
             <div>
                 <ul>

@@ -17,7 +17,7 @@ function Coba() {
                 <Link to='/noDarurat'>
                 <button id="button-opsi1" type="button" ><p>Menghubungi Nomor Darurat</p></button>
                 </Link>
-                <Link to='/'>
+                <Link to='/Pelaporan'>
                 <button id="button-opsi2" type="button"><p>Pelaporan / Aspirasi</p></button>
                 </Link>
             </div>
