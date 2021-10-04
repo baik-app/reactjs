@@ -28,7 +28,7 @@ function NoDarurat() {
                     <li onClick={()=> setPanggil(PanggilOn('021799325'))}><Box number="021799325 - PMI"/></li>
                 </ul>
             </div>
-            <div><p>{panggil}</p></div>
+            <div>{panggil}</div>
         </div>
         </div>
     )
