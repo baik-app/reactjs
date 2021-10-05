@@ -52,5 +52,4 @@ function NoDarurat2() {
     </div>
   );
 }
-
 export default NoDarurat2;

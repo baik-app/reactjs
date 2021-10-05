@@ -13,6 +13,7 @@ function NavHome() {
           <img src={Telepon} alt="telephone" />
         </div>
       </Link>
+
       <Link to="/Pelaporan">
         <div className="lapor">
           <img src={Lapor} alt="lapor" />

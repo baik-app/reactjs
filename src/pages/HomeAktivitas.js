@@ -14,5 +14,4 @@ function HomeAktivitas() {
     </div>
   );
 }
-
 export default HomeAktivitas;

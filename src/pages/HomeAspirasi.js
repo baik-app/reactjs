@@ -1,6 +1,5 @@
 import React from "react";
 import Nav from "./Components/Nav-Home/NavHome";
-// import Avatar from "./Components/Profile/Avatar";
 import LaporOff from "./Components/Opsi-Lapor/PelaporanOff";
 import Aspirasi from "./Components/Opsi-Lapor/Aspirasi";
 import BuatAspirasi from "./Assets/buat-aspirasi.svg";
@@ -19,6 +18,7 @@ function HomeAspirasi() {
           Anda dapat menyampaikan opini usulan, dan harapan anda terhadap suatu
           persoalan. Identitas anda pun akan terjamin aman dan terlindungi.
         </p>
+
         <Link>
           <div className="buat">
             <img src={BuatAspirasi} alt="buat-aspirasi" />
