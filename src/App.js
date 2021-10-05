@@ -10,6 +10,8 @@ import Opsi from './pages/Opsi'
 import NomorDarurat from './pages/NoDarurat'
 import HomePelaporan from './pages/HomePelaporan'
 import HomeAspirasi from './pages/HomeAspirasi'
+// import Login from './pages/Login'
+import SilahkanLogin from './pages/SilahkanLogin'
 
 function App() {
   return (
@@ -29,6 +31,9 @@ function App() {
         </Route>
         <Route path='/Aspirasi'>
           <HomeAspirasi />
+        </Route>
+        <Route path='/SilahkanLogin'>
+          <SilahkanLogin />
         </Route>
       </Switch>
       </Router>
