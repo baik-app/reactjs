@@ -19,6 +19,7 @@ function NavHome() {
           <img src={Lapor} alt="lapor" />
         </div>
       </Link>
+
       <Link to="/Aktivitas">
         <div className="aktifitas">
           <img src={Aktifitas} alt="aktifitas" />

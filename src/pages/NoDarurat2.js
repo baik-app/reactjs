@@ -10,6 +10,7 @@ import PanggilOn from "./Components/Button-Panggil/PanggilOn";
 
 function NoDarurat2() {
   const [panggil, setPanggil] = useState(<PanggilOff />);
+
   return (
     <div>
       <div className="layanan-telepon">

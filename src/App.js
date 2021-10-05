@@ -7,6 +7,8 @@ import NomorDarurat from "./pages/NoDarurat";
 import NomorDarurat2 from "./pages/NoDarurat2";
 import HomePelaporan from "./pages/HomePelaporan";
 import HomeAspirasi from "./pages/HomeAspirasi";
+// import Login from "./pages/Login";
+import SilahkanLogin from "./pages/SilahkanLogin";
 import HomeAktivitas from "./pages/HomeAktivitas";
 
 function App() {
@@ -33,6 +35,9 @@ function App() {
         </Route>
         <Route path="/Aspirasi">
           <HomeAspirasi />
+        </Route>
+        <Route path="/SilahkanLogin">
+          <SilahkanLogin />
         </Route>
         <Route path="/Aktivitas">
           <HomeAktivitas />
