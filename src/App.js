@@ -1,38 +1,45 @@
-import React from 'react'
-import './App.css'
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route
-} from 'react-router-dom'
-import Intro from './pages/Intro'
-import Opsi from './pages/Opsi'
-import NomorDarurat from './pages/NoDarurat'
-import HomePelaporan from './pages/HomePelaporan'
-import HomeAspirasi from './pages/HomeAspirasi'
+import React from "react";
+import "./App.css";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Intro from "./pages/Intro";
+import Opsi from "./pages/Opsi";
+import NomorDarurat from "./pages/NoDarurat";
+import NomorDarurat2 from "./pages/NoDarurat2";
+import HomePelaporan from "./pages/HomePelaporan";
+import HomeAspirasi from "./pages/HomeAspirasi";
+import HomeAktivitas from "./pages/HomeAktivitas";
 
 function App() {
   return (
-      <Router>
+    <Router>
       <Switch>
-        <Route exact path='/'>
+        <Route exact path="/">
           <Intro />
         </Route>
-        <Route path='/opsi'>
+        <Route path="/opsi">
           <Opsi />
         </Route>
-        <Route path='/noDarurat'>
-          <NomorDarurat />
-        </Route>
-        <Route path='/Pelaporan'>
+        <Route path="/backHome">
           <HomePelaporan />
         </Route>
-        <Route path='/Aspirasi'>
+        <Route path="/noDarurat">
+          <NomorDarurat />
+        </Route>
+        <Route path="/noDarurat2">
+          <NomorDarurat2 />
+        </Route>
+        <Route path="/Pelaporan">
+          <HomePelaporan />
+        </Route>
+        <Route path="/Aspirasi">
           <HomeAspirasi />
         </Route>
+        <Route path="/Aktivitas">
+          <HomeAktivitas />
+        </Route>
       </Switch>
-      </Router>
-  )
+    </Router>
+  );
 }
 
-export default App
+export default App;

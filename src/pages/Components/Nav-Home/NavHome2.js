@@ -1,8 +1,8 @@
 import React from "react";
 import "./style.css";
-import Lapor from "./laporOn.svg";
+import Lapor from "./lapor.svg";
 import Telepon from "./telephone.svg";
-import Aktifitas from "./aktifitasOff.svg";
+import Aktifitas from "./aktivitas-bold.svg";
 import { Link } from "react-router-dom";
 
 function NavHome() {

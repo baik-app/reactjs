@@ -1,0 +1,13 @@
+.box-aktivitas {
+  position: absolute;
+  left: 4.44%;
+  right: 4.44%;
+  top: 11.88%;
+  bottom: 15.16%;
+
+  background: #22546d;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: inset 5px 5px 4px rgba(128, 120, 120, 0.25);
+  border-radius: 8px;
+}
