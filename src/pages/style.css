@@ -312,3 +312,150 @@
   left: 67px;
   bottom: 22px;
 }
+
+.container-silahkanLogin{
+  --tw-bg-opacity: 1;
+    background-color: #7D9EAD;
+    position: relative;
+    width: 360px;
+    /* max-width: 360px; */
+    /* width: 100%; */
+    height: 640px;
+    margin: 0px auto;
+    box-sizing: border-box;
+    top: 0px;
+    padding: 0px 16px 80px;
+    /* min-height: calc(100vh - 60px); */
+}
+
+.close-login{
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: 16px;
+  top: 16px;
+}
+
+.header-login h1{
+  position: absolute;
+  width: 251px;
+  height: 24px;
+  left: 55px;
+  top: 197px;
+  
+  /* Large */
+  
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 150%;
+  /* or 36px */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #000000;
+}
+
+.header-login p{
+  position: absolute;
+  width: 194px;
+  height: 42px;
+  left: 83px;
+  top: 237px;
+  
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #000000;
+}
+
+#button-daftar{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border:none;
+  cursor: pointer;
+
+  position: absolute;
+  width: 296px;
+  height: 47px;
+  left: 32px;
+  top: 307px;
+  
+  background: #001F70;
+  border-radius: 10px;
+}
+
+#button-daftar p{
+  position: static;
+  width: 154px;
+  height: 28px;
+  left: 103px;
+  top: 187px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 112% */
+
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.masuk-login {
+  position: relative;
+  width: 259px;
+  height: 26px;
+  left: 51px;
+  top: 364px;
+  
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #000000;
+}
+
+.ketentuan{
+  position: absolute;
+  width: 287px;
+  height: 43px;
+  left: 37px;
+  top: 579px;
+  
+  /* Tiny */
+  
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 150%;
+  /* or 21px */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #000000;
+}
