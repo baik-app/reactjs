@@ -32,7 +32,7 @@ function FormPelaporan() {
         <div className='form-container'>
             <div className='judul-form'>
                 <h2>Formulir Pelaporan</h2>
-                <Link to='/Aspirasi'><img src={Back} alt='back' /></Link>
+                <Link to='/Pelaporan'><img src={Back} alt='back' /></Link>
                 </div>
                 <div className='pengirim'>
                     <ul>
