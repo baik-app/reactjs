@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
- 
+import "./style.css";
+import Next from "./Assets/next.svg";
+
 function Login() {
  
     const [email, setEmail] = useState('')
@@ -44,7 +46,13 @@ function Login() {
     return (
         <div>
         {isLogin === 1 ? 
-            <h1>Anda sudah login</h1>:
+            <div className="container-selamatdatang">
+            <p>Selamat datang kembali di Baik App. Laporkan segala bentuk kejahatan disini.</p>
+            <Link to="/HomePelaporan">
+            <img className="next" src={Next} alt="next" />
+            </Link>
+            </div>:
+            
         <div className="page-login">
             <h1>Login</h1>
             <label htmlFor="email">Email: </label>
