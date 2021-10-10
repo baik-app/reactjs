@@ -2,7 +2,7 @@ import React from 'react'
 import './style.css'
 import Aspirasi from './AspirasiOff'
 
-function opsiLapor(setLapor) {
+function OpsiLapor(setLapor) {
     return (
         <div className='container-lapor'>
             <div className='opsi-pelaporan'>
@@ -12,4 +12,4 @@ function opsiLapor(setLapor) {
     )
 }
 
-export default opsiLapor
+export default OpsiLapor
