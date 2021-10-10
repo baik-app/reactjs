@@ -48,7 +48,7 @@ function Login() {
         <div className="page-login">
             <h1>Login</h1>
             <label htmlFor="email">Email: </label>
-            <input type="text" id="email" value={email} onChange={(e) => setEmail(e.target.value)} />
+            <input type="email" id="email" value={email} onChange={(e) => setEmail(e.target.value)} />
  
             <br />
             <br />
