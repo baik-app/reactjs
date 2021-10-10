@@ -5,13 +5,18 @@ import Back from './Assets/back.svg'
 function FormAspirasi() { 
   let getLC
  
+  const [pengirim, setPengirim] = useState('')
   const [judul, setJudul] = useState('')
   const [isi, setIsi] = useState('')
   const [instansi, setInstansi] = useState('')
   const [kategori, setKategori] = useState('')
 
+  let namaPengirim = JSON.parse(localStorage.getItem('users'))
+  console.log(namaPengirim);
+
   const onSubmit = (e) => {
       getLC = {
+          pengirim,
           judul,
           isi,
           instansi,
@@ -39,10 +44,10 @@ function FormAspirasi() {
                     <ul>
                         <li>Pengirim*</li>
                         <li>
-                            <input type="radio" name="drone"/> Akun Pengguna
+                            <input type="radio" name="drone" value={namaPengirim[0].nama} onChange={(e) => setPengirim(e.target.value)} />Akun Pengguna
                             </li>
                         <li>
-                            <input type="radio" name="drone" /> Anonim
+                            <input type="radio" name="drone" value='Anonim' onChange={(e) => setPengirim(e.target.value)} /> Anonim
                         </li>
                     </ul>
                 </div>
@@ -72,7 +77,7 @@ function FormAspirasi() {
                         <option value="saab">Kesehatan</option>
                     </select>
                 </div>
-          <button className='overview' type="submit" onClick={(e) => onSubmit(e)}><p>Overview</p></button>
+          <button className='overview' type="submit" onClick={(e) => onSubmit(e)}><Link to='/Aspirasi'><p>Overview</p></Link></button>
       </div>
   )
 }

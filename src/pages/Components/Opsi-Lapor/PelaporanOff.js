@@ -1,6 +1,5 @@
 import React from 'react'
 import './style.css'
-import Aspirasi from './AspirasiOff'
 import { Link } from 'react-router-dom'
 
 function opsiLapor(setLapor) {

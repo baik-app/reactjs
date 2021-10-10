@@ -12,7 +12,7 @@ import SilahkanLogin from "./pages/SilahkanLogin";
 import HomeAktivitas from "./pages/HomeAktivitas";
 import FormAspirasi from './pages/FormAspirasi'
 import FormPelaporan from './pages/FormPelaporan'
-import Register from "./pages/Register";
+import Register from "./pages/Register"
 
 function App() {
   return (
