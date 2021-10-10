@@ -48,7 +48,7 @@ function Login() {
         {isLogin === 1 ? 
             <div className="container-selamatdatang">
             <p>Selamat datang kembali di Baik App. Laporkan segala bentuk kejahatan disini.</p>
-            <Link to="/HomePelaporan">
+            <Link to="/Pelaporan">
             <img className="next" src={Next} alt="next" />
             </Link>
             </div>:

@@ -465,7 +465,7 @@ body {
 .form-container {
   --tw-bg-opacity: 1;
   background-color: #7D9EAD;
-
+}
 .container-selamatdatang {
   --tw-bg-opacity: 1;
   background: #7D9EAD;
@@ -480,6 +480,7 @@ body {
   top: 0px;
   padding: 0px;
   /* min-height: calc(100vh - 60px); */
+}
 
 .judul-form {
   position: absolute;

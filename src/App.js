@@ -50,6 +50,7 @@ function App() {
         </Route>
         <Route path='/FormulirPelaporan'>
           <FormPelaporan />
+        </Route>
         <Route path="/Login">
           <Login />
         </Route>
@@ -58,6 +59,6 @@ function App() {
         </Route>
       </Switch>
     </Router>
-  );
+  )
 }
 export default App;

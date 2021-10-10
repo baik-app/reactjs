@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import Back from './Assets/back.svg'
-import Lampiran from './Assets/lampiran.svg'
 
 function FormAspirasi() { 
   let getLC
