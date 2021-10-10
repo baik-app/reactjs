@@ -10,6 +10,8 @@ import HomeAspirasi from "./pages/HomeAspirasi";
 // import Login from "./pages/Login";
 import SilahkanLogin from "./pages/SilahkanLogin";
 import HomeAktivitas from "./pages/HomeAktivitas";
+import FormAspirasi from './pages/FormAspirasi'
+import FormPelaporan from './pages/FormPelaporan'
 
 function App() {
   return (
@@ -41,6 +43,12 @@ function App() {
         </Route>
         <Route path="/Aktivitas">
           <HomeAktivitas />
+        </Route>
+        <Route path='/FormulirAspirasi'>
+          <FormAspirasi />
+        </Route>
+        <Route path='/FormulirPelaporan'>
+          <FormPelaporan />
         </Route>
       </Switch>
     </Router>

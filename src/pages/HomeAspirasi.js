@@ -19,7 +19,7 @@ function HomeAspirasi() {
           persoalan. Identitas anda pun akan terjamin aman dan terlindungi.
         </p>
 
-        <Link>
+        <Link to='/FormulirAspirasi'>
           <div className="buat">
             <img src={BuatAspirasi} alt="buat-aspirasi" />
           </div>
