@@ -2,6 +2,8 @@ import React from "react";
 import "./style.css";
 import close from "./Assets/close.svg";
 import { Link } from "react-router-dom";
+import Masuk from "./Login";
+import Register from "./Register";
 
 function SilahkanLogin() {
   return (
@@ -14,16 +16,16 @@ function SilahkanLogin() {
         <p>Silahkan daftar untuk melanjutkan pelaporan</p>
       </div>
       <div>
-        <Link to="/register">
+        <Link to="/Register">
           <button id="button-daftar" type="button">
             <p>DAFTAR</p>
           </button>
         </Link>
       </div>
       <div className="masuk-login">
-        <p>Sudah punya akun?</p>
+        <p>Sudah punya akun? </p>
         <Link
-          to="/Pelaporan"
+          to="/Login"
           style={{ color: "red", textDecoration: "inherit" }}
         >
           <p> Masuk</p>
