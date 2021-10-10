@@ -18,7 +18,7 @@ function Home() {
           anda, orang lain, dan lingkungan sekitar anda. Laporan anda akan
           segera ditindak lanjuti dan terjamin aman.
         </p>
-        <Link>
+        <Link to='/FormulirPelaporan'>
           <div className="buat">
             <img src={BuatLaporan} alt="buat-laporan" />
           </div>
