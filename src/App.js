@@ -21,6 +21,9 @@ function App() {
         <Route exact path="/">
           <Intro />
         </Route>
+        <Route path="/intro">
+          <Intro />
+        </Route>
         <Route path="/opsi">
           <Opsi />
         </Route>
