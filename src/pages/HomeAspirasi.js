@@ -10,9 +10,17 @@ import {useState} from 'react'
 
 function HomeAspirasi() {
   const [profil, setprofil] = useState()
+  function onClickHandler (isShow) {
+    if (isShow == true){
+      setprofil(<Profil handler={onClickHandler}/>)
+    } 
+    else {
+      setprofil()
+    }
+  }
   return (
     <div className="container-home">
-      <img className='avatar' src={Avatar} alt='profil' onClick={()=>setprofil(<Profil />)} />
+      <img className='avatar' src={Avatar} alt='profil' onClick={()=>onClickHandler(true)} />
       <h1>Lapor</h1>
       {profil}
       <img className="profil" src="" alt="" />

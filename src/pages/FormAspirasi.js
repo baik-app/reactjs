@@ -95,7 +95,7 @@ function FormAspirasi() {
          </div>
          <button className="overview" type="submit" onClick={(e) => onSubmit(e)}>
             <Link to="/AspirasiTerkirim">
-               <p>Overview</p>
+               <p>Kirim</p>
             </Link>
          </button>
       </div>

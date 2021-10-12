@@ -10,9 +10,17 @@ import {useState} from 'react'
 
 function Home() {
   const [profil, setprofil] = useState()
+  function onClickHandler (isShow) {
+    if (isShow == true){
+      setprofil(<Profil handler={onClickHandler}/>)
+    } 
+    else {
+      setprofil()
+    }
+  }
   return (
-    <div className="container-home" >
-      <img className='avatar' src={Avatar} alt='profil' onClick={()=>setprofil(<Profil />)} />
+    <div className="container-home">
+      <img className='avatar' src={Avatar} alt='profil' onClick={()=>onClickHandler(true)} />
       <h1>Lapor</h1>
       {profil}
       <div className="garis"></div>
