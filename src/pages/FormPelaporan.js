@@ -97,7 +97,7 @@ function FormPelaporan() {
                     </select>
                 </div>
 
-          <button className='overview' type="submit" onClick={(e) => onSubmit(e)}><p>Overview</p></button>
+          <button className='overview' type="submit" onClick={(e) => onSubmit(e)}><Link to='/PelaporanTerkirim'><p>Overview</p></Link></button>
       </div>
   )
 }

@@ -6,8 +6,25 @@
   bottom: 15.16%;
 
   background: #22546d;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+.box-list {
+  height: 60px;
+  background: #57D389;
   border: 1px solid #000000;
   box-sizing: border-box;
-  box-shadow: inset 5px 5px 4px rgba(128, 120, 120, 0.25);
   border-radius: 8px;
+}
+.box-list p {
+  position: relative;
+  height: 20px;
+  top: 6px;
+  left: 20px;
+  margin: 0px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
 }

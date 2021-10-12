@@ -4,11 +4,17 @@ import Lapor from "./Components/Opsi-Lapor/Pelaporan";
 import AspirasiOff from "./Components/Opsi-Lapor/AspirasiOff";
 import BuatLaporan from "./Assets/buat-laporan.svg";
 import { Link } from "react-router-dom";
+import Avatar from './Assets/Avatar.jpg'
+import Profil from './Components/Profile/Profil'
+import {useState} from 'react'
 
 function Home() {
+  const [profil, setprofil] = useState()
   return (
-    <div className="container-home">
+    <div className="container-home" >
+      <img className='avatar' src={Avatar} alt='profil' onClick={()=>setprofil(<Profil />)} />
       <h1>Lapor</h1>
+      {profil}
       <div className="garis"></div>
       <Lapor />
       <AspirasiOff />

@@ -1,7 +1,72 @@
-.profil {
-    
-    position: absolute;
+.avatar {
+    position: relative;
     width: 33px;
     height: 33px;
-    left: 14px;
     top: 12px;
+    left: 14px;
+    border-radius: 50%;
+}
+.box-profil {
+    position: absolute;
+    width: 199px;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+    
+    background: #B4D4E2;
+    border-radius: 0px 7px 7px 7px;
+}
+.nama-akun {
+    position: absolute;
+    width: 101px;
+    height: 17px;
+    left: 62px;
+    top: 13px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 150%;
+}
+.nama-akun h5 {
+    margin: 0px;
+}
+.email {
+    position: absolute;
+    width: 111px;
+    height: 15px;
+    left: 62px;
+    top: 31px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 150%;
+    /* identical to box height, or 15px */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #646D74;
+}
+#logout {
+    position: absolute;
+    width: 34px;
+    height: 10px;
+    left: 161px;
+    top: 46px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 150%;
+    /* or 12px */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+}

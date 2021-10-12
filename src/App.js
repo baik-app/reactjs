@@ -13,6 +13,8 @@ import HomeAktivitas from "./pages/HomeAktivitas";
 import FormAspirasi from './pages/FormAspirasi'
 import FormPelaporan from './pages/FormPelaporan'
 import Register from "./pages/Register"
+import AspirasiTerkirim from './pages/AspirasiTerkirim'
+import PelaporanTerkirim from './pages/PelaporanTerkirim'
 
 function App() {
   return (
@@ -59,6 +61,12 @@ function App() {
         </Route>
         <Route path="/Register">
           <Register />
+        </Route>
+        <Route path="/AspirasiTerkirim">
+          <AspirasiTerkirim />
+        </Route>
+        <Route path="/PelaporanTerkirim">
+          <PelaporanTerkirim />
         </Route>
       </Switch>
     </Router>
