@@ -1,0 +1,391 @@
+.login-form {
+   --tw-bg-opacity: 1;
+   background-color: #7d9ead;
+   position: relative;
+   width: 360px;
+   /* max-width: 360px; */
+   /* width: 100%; */
+   height: 640px;
+   margin: 0px auto;
+   box-sizing: border-box;
+   top: 0px;
+   padding: 0px;
+   /* min-height: calc(100vh - 60px); */
+}
+.judul-login {
+   position: absolute;
+   width: 360px;
+   height: 56px;
+   left: 0px;
+   top: 0px;
+
+   background: #7d9ead;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.judul-login h2 {
+   position: absolute;
+   width: 308px;
+   height: 24px;
+   left: 26px;
+   top: 20px;
+   margin: 0px;
+
+   font-family: Poppins;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 20px;
+   line-height: 120%;
+   /* identical to box height, or 24px */
+   text-align: center;
+
+   color: #090a0a;
+}
+.judul-login img {
+   position: absolute;
+   width: 24px;
+   height: 24px;
+   left: 16px;
+   top: 16px;
+}
+.emailLog {
+   position: absolute;
+   left: 20px;
+   top: 87px;
+
+   font-family: Poppins;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 12px;
+   line-height: 18px;
+   /* identical to box height, or 150% */
+   color: #282d31;
+}
+
+.passwordLog {
+   position: absolute;
+   left: 20px;
+   top: 181px;
+
+   font-family: Poppins;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 12px;
+   line-height: 18px;
+   text-align: justify;
+   /* identical to box height, or 150% */
+   color: #282d31;
+}
+
+/* sdad */
+.judulLog {
+   position: absolute;
+   left: 4px;
+   top: 200px;
+
+   font-family: Poppins;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 12px;
+   line-height: 18px;
+   /* identical to box height, or 150% */
+   color: #282d31;
+}
+.form-judulLog {
+   position: absolute;
+   width: 307px;
+   height: 40px;
+   margin-top: 4px;
+   padding-left: 8px;
+
+   background: #ffffff;
+   border: 1px solid #2563eb;
+   border-radius: 8px;
+   font-family: Poppins;
+}
+.masukLog {
+   position: absolute;
+   width: 277px;
+   height: 40px;
+   left: 41px;
+   top: 330px;
+
+   background: #001f70;
+   border-radius: 8px;
+   border: none;
+   cursor: pointer;
+}
+.masukLog p {
+   font-family: Poppins;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 18px;
+   margin: 0px;
+   /* identical to box height, or 112% */
+
+   text-align: center;
+
+   color: #ffffff;
+}
+.keDaftar {
+   position: absolute;
+   width: 295px;
+   height: 31px;
+   left: 72px;
+   top: 379px;
+   /* Small */
+   font-family: Poppins;
+   font-size: 16px;
+   line-height: 150%;
+   /* or 24px */
+   display: flex;
+   align-items: center;
+   text-align: center;
+}
+.container-register {
+   --tw-bg-opacity: 1;
+   background-color: #7d9ead;
+   position: relative;
+   width: 360px;
+   /* max-width: 360px; */
+   /* width: 100%; */
+   height: 1017px;
+   margin: 0px auto;
+   box-sizing: border-box;
+   top: 0px;
+   padding: 0px;
+}
+@media screen and (min-width: 360px) {
+   .container-register {
+      --tw-bg-opacity: 1;
+      background-color: #7d9ead;
+      position: relative;
+      /* width: 360px; */
+      /* max-width: 360px; */
+      /* width: 100%; */
+      height: 1017px;
+      margin: 0px auto;
+      box-sizing: border-box;
+      top: 0px;
+      padding: 0px;
+   }
+}
+
+#form-judulLog {
+   position: absolute;
+   width: 307px;
+   height: 34px;
+   margin-top: 4px;
+   padding-left: 8px;
+
+   background: #ffffff;
+   border: 1px solid #2563eb;
+   border-radius: 8px;
+   font-family: Poppins;
+}
+.nik {
+   position: absolute;
+   left: 20px;
+   top: 88px;
+
+   font-family: Poppins;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 150%;
+   text-align: justify;
+   /* identical to box height, or 150% */
+   color: #282d31;
+}
+.nama-lengkap {
+   position: absolute;
+   left: 20px;
+   top: 174px;
+
+   font-family: Poppins;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 150%;
+   text-align: justify;
+   /* identical to box height, or 150% */
+   color: #282d31;
+}
+.tempat-tinggal {
+   position: absolute;
+   left: 20px;
+   top: 260px;
+
+   font-family: Poppins;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 150%;
+   text-align: justify;
+   /* identical to box height, or 150% */
+   color: #282d31;
+}
+.tanggal-lahir {
+   position: absolute;
+   left: 20px;
+   top: 346px;
+
+   font-family: Poppins;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 150%;
+   text-align: justify;
+   /* identical to box height, or 150% */
+   color: #282d31;
+}
+.jenis-kelamin {
+   position: absolute;
+   left: 20px;
+   top: 432px;
+
+   font-family: Poppins;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 150%;
+   text-align: justify;
+   /* identical to box height, or 150% */
+   color: #282d31;
+}
+.no-telpon {
+   position: absolute;
+   left: 20px;
+   top: 518px;
+
+   font-family: Poppins;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 150%;
+   text-align: justify;
+   /* identical to box height, or 150% */
+   color: #282d31;
+}
+.emailReg {
+   position: absolute;
+   left: 20px;
+   top: 604px;
+
+   font-family: Poppins;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 150%;
+   text-align: justify;
+   /* identical to box height, or 150% */
+   color: #282d31;
+}
+.passwordReg {
+   position: absolute;
+   left: 20px;
+   top: 690px;
+
+   font-family: Poppins;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 150%;
+   text-align: justify;
+   /* identical to box height, or 150% */
+   color: #282d31;
+}
+.konfirmasi-password {
+   position: absolute;
+   left: 20px;
+   top: 776px;
+
+   font-family: Poppins;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 150%;
+   text-align: justify;
+   /* identical to box height, or 150% */
+   color: #282d31;
+}
+.masukReg {
+   position: absolute;
+   width: 277px;
+   height: 40px;
+   left: 41px;
+   top: 882px;
+
+   background: #001f70;
+   border-radius: 8px;
+   border: none;
+   cursor: pointer;
+}
+.masukReg p {
+   font-family: Poppins;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 18px;
+   margin: 0px;
+   /* identical to box height, or 112% */
+
+   text-align: center;
+
+   color: #ffffff;
+}
+.keLogin {
+   position: absolute;
+   width: 295px;
+   height: 31px;
+   left: 72px;
+   top: 926px;
+   /* Small */
+   font-family: Poppins;
+   font-size: 16px;
+   line-height: 150%;
+   /* or 24px */
+   display: flex;
+   align-items: center;
+   text-align: center;
+}
+.welcomes {
+   position: absolute;
+   width: 289px;
+   height: 170px;
+   left: 35px;
+   top: 235px;
+
+   background: #b4d4e2;
+   border-radius: 8px;
+}
+.welcomes p {
+   position: absolute;
+   width: 259px;
+   height: 82px;
+   left: 14px;
+   top: 12px;
+   font-family: Poppins;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 24px;
+
+   /* font-family: Poppins;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 18px;
+   line-height: 150%; */
+   /* or 27px */
+
+   display: flex;
+   align-items: center;
+   text-align: center;
+}
+.welcomes img {
+   position: absolute;
+   width: 26px;
+   height: 32px;
+   left: 240px;
+   top: 126px;
+}
