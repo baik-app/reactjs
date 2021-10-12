@@ -1,5 +1,5 @@
 body {
-   margin-top: 0px;
+   margin: 0px;
 }
 
 @media screen and (min-width: 360px) {
@@ -476,6 +476,21 @@ body {
 
    color: #000000;
 }
+@media screen and (min-width: 360px) {
+.form-container {
+   --tw-bg-opacity: 1;
+   background-color: #7d9ead;
+   position: relative;
+   /* max-width: 360px; */
+   /* width: 100%; */
+   height: 640px;
+   margin: 0px auto;
+   box-sizing: border-box;
+   top: 0px;
+   padding: 0px;
+   /* min-height: calc(100vh - 60px); */
+}
+}
 .form-container {
    --tw-bg-opacity: 1;
    background-color: #7d9ead;
@@ -489,6 +504,21 @@ body {
    top: 0px;
    padding: 0px;
    /* min-height: calc(100vh - 60px); */
+}
+@media screen and (min-width: 360px) {
+   .form-container-pelaporan {
+      --tw-bg-opacity: 1;
+      background-color: #7d9ead;
+      position: relative;
+      /* max-width: 360px; */
+      /* width: 100%; */
+      height: 640px;
+      margin: 0px auto;
+      box-sizing: border-box;
+      top: 0px;
+      padding: 0px;
+      /* min-height: calc(100vh - 60px); */
+}
 }
 .form-container-pelaporan {
    --tw-bg-opacity: 1;
@@ -762,4 +792,33 @@ input[type="file"] {
    text-align: justify;
    /* identical to box height, or 150% */
    color: #282d31;
+}
+.terkirim {
+   position: absolute;
+   top: 150px;
+   left: 34px;
+   margin: 0 auto;
+
+   opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+.avatar {
+   position: relative;
+   width: 33px;
+   height: 33px;
+   top: 12px;
+   left: 14px;
+   border-radius: 50%;
 }

@@ -1,7 +1,12 @@
 import React from "react";
 import "./style.css";
-import { Link } from "react-router-dom";
+import Aktivitas from './AktivitasList'
+
 function BoxAktivi() {
-  return <div className="box-aktivitas"></div>;
+  return (
+  <div className="box-aktivitas">
+    <Aktivitas />
+  </div>
+  )
 }
 export default BoxAktivi;

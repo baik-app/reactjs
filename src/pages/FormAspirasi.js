@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Back from "./Assets/back.svg";
+import './style.css'
 
 function FormAspirasi() {
    let getLC;
@@ -77,21 +78,23 @@ function FormAspirasi() {
             <label>Instansi Tujuan*</label>
             <br />
             <select name="instansi" id="dropdown" value={instansi} onChange={(e) => setInstansi(e.target.value)}>
-               <option value="volvo">Pemerintah Kota Cimahi</option>
-               <option value="saab">Polres Cimahi</option>
+               <option value="">Pilih Instansi Tujuan</option>
+               <option value="Pemerintah Kota Cimahi">Pemerintah Kota Cimahi</option>
+               <option value="Polres">Polres Cimahi</option>
             </select>
          </div>
          <div className="kategori">
             <label>Kategori Aspirasi*</label>
             <br />
             <select name="kategori" id="dropdown" value={kategori} onChange={(e) => setKategori(e.target.value)}>
-               <option value="volvo">Virus Corona</option>
-               <option value="saab">Ekonomi dan Keuangan</option>
-               <option value="saab">Kesehatan</option>
+               <option value="Virus Corona">Pilih Kategori Aspirasi</option>
+               <option value="Virus Corona">Virus Corona</option>
+               <option value="Ekonomi dan Keuangan">Ekonomi dan Keuangan</option>
+               <option value="Kesehatan">Kesehatan</option>
             </select>
          </div>
          <button className="overview" type="submit" onClick={(e) => onSubmit(e)}>
-            <Link to="/Aspirasi">
+            <Link to="/AspirasiTerkirim">
                <p>Overview</p>
             </Link>
          </button>
