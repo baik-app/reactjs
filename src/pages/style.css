@@ -822,3 +822,8 @@ input[type="file"] {
    left: 14px;
    border-radius: 50%;
 }
+.g-signin2 {
+   position: relative;
+   top : 250px;
+   left : 125px;
+}

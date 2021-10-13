@@ -95,7 +95,7 @@ function Register() {
             <input type="password" id="form-judulLog" value={konfirmasi} onChange={(e) => setKonfirPassword(e.target.value)} />
          </div>
          <button className="masukReg" type="submit" onClick={(e) => onRegister(e)}>
-            <p>Register</p>
+            <Link to='/Login'><p>Register</p></Link>
          </button>
          <div className="keLogin">
             <p>Sudah punya akun?</p>

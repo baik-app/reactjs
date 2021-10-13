@@ -65,7 +65,7 @@ function FormPelaporan() {
                 </div>
 
                 <div className='isi'>
-                    <label htmlFor="isi">Isi Aspirasi*</label><br/>
+                    <label htmlFor="isi">Isi Pelaporan*</label><br/>
                     <textarea type='text' className="form-isi" value={isi} onChange={(e) => setIsi(e.target.value)} />
                 </div>
 
