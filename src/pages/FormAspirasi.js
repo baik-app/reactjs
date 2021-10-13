@@ -88,6 +88,8 @@ function FormAspirasi() {
             <br />
             <select name="kategori" id="dropdown" value={kategori} onChange={(e) => setKategori(e.target.value)}>
                <option value="Virus Corona">Pilih Kategori Aspirasi</option>
+               <option value="Fasilitas Publik">Fasilitas Publik</option>
+               <option value="Sosial dan Kesejahteraan">Sosial dan Kesejahteraan</option>
                <option value="Virus Corona">Virus Corona</option>
                <option value="Ekonomi dan Keuangan">Ekonomi dan Keuangan</option>
                <option value="Kesehatan">Kesehatan</option>
