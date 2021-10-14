@@ -8,12 +8,24 @@ function BoxAktivi() {
   let pelaporan = JSON.parse(localStorage.getItem('pelaporan'))
   console.log(pelaporan);
   
-  let data = aspirasi.concat(pelaporan)
+  let data
+  if (aspirasi && pelaporan) {
+    data = aspirasi.concat(pelaporan)
+  }
+  else if (aspirasi) {
+    data = aspirasi
+  }
+  else if (pelaporan) {
+    data = pelaporan
+  }
+  else {
+    data = []
+  }
   console.log(data);
 
   return (
   <div className="box-aktivitas">
-    {data.map((item, index) => (<Aktivitas key={index} judul={item.judul} tanggal={item.tanggalBikin}/>) )}
+    {data !== null ? data.map((item, index) => (<Aktivitas key={index} judul={item.judul} tanggal={item.tanggalBikin}/>) ): null}
   </div>
   )
 }
